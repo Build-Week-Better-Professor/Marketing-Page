@@ -180,66 +180,92 @@ body {
 }
 .mainContent .whyBetter {
   margin: 5px;
+  display: flex;
 }
 .mainContent .whyBetter h2 {
   font-size: 1.3rem;
   text-align: center;
   text-decoration: underline;
 }
+.mainContent .whyBetter h3 {
+  font-style: italic;
+  font-size: 1.8rem;
+  padding-bottom: 2%;
+}
 .mainContent .whyBetter .reasonOne {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
+  border: 2px dashed black;
 }
 .mainContent .whyBetter .reasonTwo {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
+  border: 2px dashed black;
 }
 .mainContent .whyBetter .reasonThree {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
+  border: 2px dashed black;
 }
 .mainContent .about {
   margin: 5px;
+  display: flex;
 }
 .mainContent .about h2 {
   font-size: 1.8rem;
   text-align: center;
   text-decoration: underline;
 }
+.mainContent .about h3 {
+  font-size: 1.8rem;
+}
 .mainContent .about i {
-  display: flex;
-  justify-content: center;
   margin: 10px;
-  font-size: 40px;
-  text-align: center;
+  font-size: 20px;
 }
 .mainContent .about .personOne {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personTwo {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personThree {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personFour {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
+  border: 2px dashed black;
 }
 .getStarted {
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
 }
 .getStarted h2 {
   padding-bottom: 5px;
