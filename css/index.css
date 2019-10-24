@@ -189,55 +189,72 @@ body {
 .mainContent .whyBetter .reasonOne {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .whyBetter .reasonTwo {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .whyBetter .reasonThree {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .about {
   margin: 5px;
 }
 .mainContent .about h2 {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   text-align: center;
   text-decoration: underline;
+}
+.mainContent .about i {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 40px;
+  text-align: center;
 }
 .mainContent .about .personOne {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .about .personTwo {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .about .personThree {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .mainContent .about .personFour {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: 2px solid black;
 }
 .getStarted {
   margin: 5px;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
+}
+.getStarted h2 {
+  padding-bottom: 5px;
+}
+.getStarted p {
+  padding-bottom: 10px;
+}
+.getStarted button {
+  border-radius: 12px;
+  font-size: 1.1rem;
 }
