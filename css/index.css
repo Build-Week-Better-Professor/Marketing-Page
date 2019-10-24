@@ -23,6 +23,11 @@
   padding: 1%;
   border-bottom: 2px dashed black;
 }
+@media '(min-width: 500px)' {
+  .navBar {
+    background-color: aqua;
+  }
+}
 .navBar nav {
   display: flex;
   justify-content: space-evenly;
@@ -212,6 +217,14 @@ body {
   padding: 5px;
   font-size: 1.3rem;
   border: 2px dashed black;
+}
+@media '(min-width: 500px)' {
+  .mainContent .whyBetter .whyBetter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5px;
+  }
 }
 .mainContent .about {
   margin: 5px;
