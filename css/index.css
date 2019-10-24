@@ -1,7 +1,3 @@
-body {
-  margin: 5%;
-  padding: 1%;
-}
 .footer {
   width: 100%;
   padding: 1%;
@@ -177,4 +173,71 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+body {
+  margin: 0 5%;
+  padding: 1%;
+}
+.mainContent .whyBetter {
+  margin: 5px;
+}
+.mainContent .whyBetter h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.mainContent .whyBetter .reasonOne {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .whyBetter .reasonTwo {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .whyBetter .reasonThree {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .about {
+  margin: 5px;
+}
+.mainContent .about h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.mainContent .about .personOne {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .about .personTwo {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .about .personThree {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.mainContent .about .personFour {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.getStarted {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
 }
