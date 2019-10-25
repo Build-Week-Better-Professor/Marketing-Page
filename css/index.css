@@ -35,7 +35,7 @@
   text-align: center;
   padding-top: 10px;
 }
-.navBar nav ul {
+.navBar nav div {
   display: flex;
   margin: 5px;
   justify-content: space-evenly;
@@ -43,8 +43,21 @@
   margin: 1%;
   width: 50%;
 }
-.navBar nav ul li {
+.navBar nav div a {
   padding: 1%;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .navBar h3 {
+    display: none;
+  }
+  .navBar div {
+    justify-content: space-between;
+  }
+  .navBar div a {
+    padding: 2%;
+    text-align: center;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -180,73 +193,95 @@ body {
 }
 .mainContent .whyBetter {
   margin: 5px;
+  display: flex;
 }
 .mainContent .whyBetter h2 {
   font-size: 1.3rem;
   text-align: center;
   text-decoration: underline;
 }
+.mainContent .whyBetter h3 {
+  font-style: italic;
+  font-size: 1.8rem;
+  padding-bottom: 2%;
+}
 .mainContent .whyBetter .reasonOne {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  border: 2px dashed black;
 }
 .mainContent .whyBetter .reasonTwo {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  border: 2px dashed black;
 }
 .mainContent .whyBetter .reasonThree {
+  text-align: center;
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  border: 2px dashed black;
 }
 .mainContent .about {
   margin: 5px;
+  display: flex;
 }
 .mainContent .about h2 {
   font-size: 1.8rem;
   text-align: center;
   text-decoration: underline;
 }
+.mainContent .about h3 {
+  font-size: 1.8rem;
+}
 .mainContent .about i {
-  display: flex;
-  justify-content: center;
   margin: 10px;
-  font-size: 40px;
-  text-align: center;
+  font-size: 20px;
 }
 .mainContent .about .personOne {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personTwo {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personThree {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  text-align: center;
+  border: 2px dashed black;
 }
 .mainContent .about .personFour {
   margin: 5px;
+  width: 25%;
   padding: 5px;
   font-size: 1.3rem;
-  border: 2px solid black;
+  text-align: center;
+  border: 2px dashed black;
+}
+.mainContent .about .button {
+  background-color: none;
 }
 .getStarted {
   margin: 5px;
   padding: 5px;
   font-size: 1.3rem;
+  text-align: center;
 }
 .getStarted h2 {
   padding-bottom: 5px;
@@ -257,4 +292,75 @@ body {
 .getStarted button {
   border-radius: 12px;
   font-size: 1.1rem;
+}
+@media (max-width: 500px) {
+  .whyBetter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5px;
+  }
+  .about {
+    width: 95%;
+    margin: 5px;
+    height: 80%;
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .about img {
+    display: none;
+  }
+  .about .personOne {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personOne h3 {
+    padding: 5%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personOne p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personTwo h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personTwo p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personThree {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personThree h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personThree p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personFour {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personFour h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personFour p {
+    margin: 2%;
+    padding: 2%;
+  }
 }
