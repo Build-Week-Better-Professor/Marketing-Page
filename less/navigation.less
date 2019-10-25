@@ -1,9 +1,9 @@
 // navigation styles
 .navBar{ //open navBar big div
 
-    @media @mobile {
-        background-color: aqua;
-    }
+    // @media (max-width: 500px){
+    //     background-color: aqua;
+    // }
     
     width: 100%;
     padding: 1%;
@@ -24,19 +24,42 @@
             padding-top: 10px;
         }// title closes
 
-        ul{//nav links open
+        div{//nav links open
             display: flex;
             margin: 5px;
             justify-content: space-evenly;
             font-size: 1.5rem;
             margin: 1%;
             width: 50%;
+            
 
-            li {
+            a {
                 padding: 1%;
+                text-decoration: none;
             }
         }//nav links close
 } // closes navBar big div
 
 
+}
+
+@media (max-width: 500px){
+    .navBar{
+        // background-color: aqua;
+       
+        h3{
+            display: none;
+        }
+
+        div{
+            justify-content: space-between;
+
+            a {
+                padding: 2%;
+                text-align: center;
+            }
+        }
+        
+    }
+    
 }

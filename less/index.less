@@ -51,15 +51,7 @@ body{
             border: @dashed;
         }
 
-        @media @mobile { //media opens
-            .whyBetter{
-                display: flex;
-                flex-wrap: wrap;
-                width: 95%;
-                margin: 5px;
-
-            }
-        } // media closes
+       
     }
 
     .about{
@@ -112,6 +104,10 @@ body{
             text-align: center;
             border: @dashed;
         }
+
+        .button {
+            background-color: none;
+        }
     }
 }
 
@@ -134,3 +130,100 @@ body{
        font-size: 1.1rem;
     }
 }
+
+// media queries
+@media (max-width: 500px) { //media opens
+    .whyBetter{
+        // background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 5px;
+
+    }
+
+    .about{
+        width: 95%;
+        margin: 5px; 
+        height: 80%;
+        padding: 15%;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+        .personOne{
+           display: flex;
+           justify-content: space-between;
+
+           h3{
+               padding: 5%;
+               margin: 2%;
+               text-align: center;
+           }
+
+           p{
+               margin: 2%;
+               padding: 2%;
+           }
+           
+            
+        }
+        .personTwo{
+            
+            display: flex;
+            justify-content: space-between;
+ 
+            h3{
+                padding: 2%;
+                margin: 2%;
+                text-align: center;
+            }
+ 
+            p{
+                margin: 2%;
+                padding: 2%;
+            }
+            
+            
+            
+        }
+        .personThree{
+          
+           display: flex;
+           justify-content: space-between;
+
+           h3{
+               padding: 2%;
+               margin: 2%;
+               text-align: center;
+           }
+
+           p{
+               margin: 2%;
+               padding: 2%;
+           }
+            
+           
+        }
+        .personFour{
+            
+            display: flex;
+            justify-content: space-between;
+ 
+            h3{
+                padding: 2%;
+                margin: 2%;
+                text-align: center;
+            }
+ 
+            p{
+                margin: 2%;
+                padding: 2%;
+            }
+           
+            
+        }
+    }
+} // media closes

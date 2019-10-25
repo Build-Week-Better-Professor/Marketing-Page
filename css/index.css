@@ -23,11 +23,6 @@
   padding: 1%;
   border-bottom: 2px dashed black;
 }
-@media '(min-width: 500px)' {
-  .navBar {
-    background-color: aqua;
-  }
-}
 .navBar nav {
   display: flex;
   justify-content: space-evenly;
@@ -40,7 +35,7 @@
   text-align: center;
   padding-top: 10px;
 }
-.navBar nav ul {
+.navBar nav div {
   display: flex;
   margin: 5px;
   justify-content: space-evenly;
@@ -48,8 +43,21 @@
   margin: 1%;
   width: 50%;
 }
-.navBar nav ul li {
+.navBar nav div a {
   padding: 1%;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .navBar h3 {
+    display: none;
+  }
+  .navBar div {
+    justify-content: space-between;
+  }
+  .navBar div a {
+    padding: 2%;
+    text-align: center;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -218,14 +226,6 @@ body {
   font-size: 1.3rem;
   border: 2px dashed black;
 }
-@media '(min-width: 500px)' {
-  .mainContent .whyBetter .whyBetter {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 5px;
-  }
-}
 .mainContent .about {
   margin: 5px;
   display: flex;
@@ -274,6 +274,9 @@ body {
   text-align: center;
   border: 2px dashed black;
 }
+.mainContent .about .button {
+  background-color: none;
+}
 .getStarted {
   margin: 5px;
   padding: 5px;
@@ -289,4 +292,75 @@ body {
 .getStarted button {
   border-radius: 12px;
   font-size: 1.1rem;
+}
+@media (max-width: 500px) {
+  .whyBetter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5px;
+  }
+  .about {
+    width: 95%;
+    margin: 5px;
+    height: 80%;
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .about img {
+    display: none;
+  }
+  .about .personOne {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personOne h3 {
+    padding: 5%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personOne p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personTwo h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personTwo p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personThree {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personThree h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personThree p {
+    margin: 2%;
+    padding: 2%;
+  }
+  .about .personFour {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .personFour h3 {
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .about .personFour p {
+    margin: 2%;
+    padding: 2%;
+  }
 }
